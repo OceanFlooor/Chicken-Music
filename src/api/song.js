@@ -5,7 +5,7 @@ import { getUid } from 'common/js/uid'
 const debug = process.env.NODE_ENV !== 'production'
 
 export function getLyric(mid) {
-  const url = debug ? '/api/lyric' : 'http://106.14.31.21:22/music/api/lyric'
+  const url = debug ? '/api/lyric' : 'http://106.14.31.21/music/api/lyric'
 
   let data = Object.assign({}, commonParams, {
     songmid: mid,
@@ -29,7 +29,7 @@ export function getLyric(mid) {
 }
 
 export function getSongsUrl(songs) {
-  const url = debug ? '/api/getPurlUrl' : 'http://106.14.31.21:22/music/api/lyric'
+  const url = debug ? '/api/getPurlUrl' : 'http://106.14.31.21/music/api/lyric'
 
   let mids = []
   let types = []
