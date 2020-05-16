@@ -44,6 +44,7 @@ export function getDiscList() {
 }
 
 export function getSongList(disstid) {
+  const url = debug ? '/api/getSongList' : 'http://106.14.31.21/music/api/getSongList'
   const params = Object.assign({}, commonParams, {
     disstid,
     type: 1,
@@ -56,7 +57,7 @@ export function getSongList(disstid) {
   })
 
   return axios({
-    url: '/api/getSongList',
+    url,
     method: 'get',
     params
   })
