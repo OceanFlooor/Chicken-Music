@@ -8,7 +8,7 @@
 <script>
 import { getSingerList } from 'api/singer'
 import Singer from 'common/js/singer'
-import ListView from 'base/listview/listview'
+import ListView from 'base/listview/listView'
 import { mapMutations } from 'vuex'
 import { playlistMixin } from 'common/js/mixin'
 

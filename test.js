@@ -11,3 +11,9 @@ let a = [1, 2, 3],
 
 c.splice(c.length, 0, 999)
 console.log(a, c, b)
+
+let a = { n: 1 }
+let b = a
+a.x = a = { n: 2 }
+console.log(a.x)
+console.log(b)
