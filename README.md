@@ -2,7 +2,7 @@
 
 > 用vue.js写的音乐app
 
-## Build Setup
+## 安装
 
 ``` bash
 # install dependencies
@@ -15,4 +15,10 @@ npm run dev
 npm run build
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 效果演示
+
+[查看demo请戳这里](http://106.14.31.21/music)（请用chrome手机模式预览）
+
+### 移动端扫描下方二维码
+
+<img src="https://github.com/OceanFlooor/pratice/blob/master/static/1591593698.png" width="250" height="250"/>
