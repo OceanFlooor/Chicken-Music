@@ -1,4 +1,4 @@
-# pratice
+# Chicken Music
 
 > 用vue.js写的音乐app
 
